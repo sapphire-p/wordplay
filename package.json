@@ -1,0 +1,17 @@
+{
+  "name": "wordplay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sapphire-p/wordplay.git",
+  "author": "Sapphire Paston <sapphire.paston@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "serve": "npx nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
