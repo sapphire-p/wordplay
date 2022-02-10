@@ -8,4 +8,4 @@ const gameSchema = new mongoose.Schema({
   numberOfPlayers: { type: String, required: true }
 })
 
-export default ('Game', gameSchema)
+export default mongoose.model('Game', gameSchema)
